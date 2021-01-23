@@ -2,6 +2,16 @@
 
 원하는 문자를 적으면 TTS가 읽은후 mp3로 저장해줍니다
 
-지원 언어 : 한국어
+지원 언어 : 한국어 , 영어
 
-원도우용 다운로드 : https://github.com/Han-seungjae/TTStoMP3/raw/main/2.7z
+설치법
+
+pip install gtts
+
+python tts.py
+
+사용 방법
+
+한줄만 변환이 필요하면 일반모드를 선택해주세요
+
+만약 2줄이상 여러문장을 변환할려고 하면 list.txt 파일에 한줄한줄 적은후  대본 모드를 실행하면 알아서 변환됩니다 
